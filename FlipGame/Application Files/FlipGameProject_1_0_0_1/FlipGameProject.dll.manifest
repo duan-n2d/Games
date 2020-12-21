@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FlipGameProject.exe" version="1.0.0.1" publicKeyToken="7fd8180a9bd3d528" language="vi-VN" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="FlipPictureLogo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="15312">
+      <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6Z/i5PbGtr8QO6xS1jVSpk4jvLuhziQTF4Rm9TcpRmQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CalcBinding.dll" size="36352">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IFAwp8xM0rZIdu+jA+jhaKDA5gxBjm1VqHaQOiGJTQw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DynamicExpresso.Core.dll" size="64000">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eqju1UknJDMjoDa/24yT/mYrfkdOIVc9XwEt2A+d7EE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FlipGameCreateCode.dll" size="6656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QQsFhosM5cOtCMYH0pTH1cY1gvxS07Ru6+mtQItUM3g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FlipGameProject.deps.json" size="8180">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mCww4YjxE6t6XNNdNe6gXXJLc6VD8KrbTbHkkVe5u90=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FlipGameProject.dll" size="281552">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HrSV3uvZxWfUKT7fA/jXlwT52PLqWCGI1H0mrpyM4Hw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FlipGameProject.exe" size="186320">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>O0NpPHCNwFsQ9ZBONs6+MydjZ32jsAmh3WEaS1d2eQU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FlipGameProject.runtimeconfig.json" size="161">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JEdMwGltKlJ/VjUDCkPZtJsOaZOrS/AfPDPsNBMwP+0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FlipPictureLogo.ico" size="11136">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PgXVasYFyoUR1XjwXMQBpm7Djr6dKSln868B6M4tjMs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MaterialDesignColors.dll" size="300032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3LfWYwF+IWapwb4MPCFkaIW6jWjY5T7nNzPVUGyR8CU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MaterialDesignThemes.Wpf.dll" size="7728128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TDhDapLf3fjhdGHI7OTdsJAtFO+usjrCctz0XKq+KSI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Xaml.Behaviors.dll" size="145280">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ceAOK5yjCIEy/E1UogdssHEn/gKl+8EN+NYc3lXf2+8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.IO.FileSystem.AccessControl.dll" size="31624">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0tbNP++CKVm2imimr2CWlju+ZJPZDhbwr2X+3iXYXzI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Security.AccessControl.dll" size="55688">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kwhIScF6IfZBwTyfF1Rc/hjB7Al1YfPw67vibzWLoSA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Security.Principal.Windows.dll" size="37768">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eCjf2VKp/UlARHe6/3FISRd9nxjAZUra+tvcr7SyH0c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WpfAnimatedGif.dll" size="43008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qsodW09AYbKkrfhvBqfUmtw9voffmoTJ6+KcA4HOQ+8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-Q9GD575\PC" issuerKeyHash="d923a548950767138ca8c60291936adc9f5f6a24" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JCq89yyZGQEFtNewk327+EI6Uv88sNqDIRMBEiG3ykM=</DigestValue></Reference></SignedInfo><SignatureValue>dIoBHLm+3py1CEqTRKuJdh1ndQ5NtqZ1+VPQO2tRrl4j09qOSpiBZFPR6REhmpDR6++3YgdlOWs+FFU8RKrgsrizeWtylrL7hSUxtdh2N7HB2iwtmxWPcHcRjvA04Gz472oG7G7IXXKJCuEJ2ii/YDK4hM5HROOI6Ys+vrT12ac=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>u6kibSvMlhJCJ+pBkqvvCommbzJBt4FjjTFiXkLyq8cTyEOYYSyBm4fzUWDqxZKDDNuIbYOgI2ppMBJL2z2FMJtXU1yF+86/lwy4t5l8pVgYoRksDCVMJROf7GF/SeikyMl2gki1cKjRZq8A7tLEDn/fjTwyRjlMZ8PNKnuPhg0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="43cab7211201132183dab03cff523a42f8bb7d93b0d7b4050119992cf7bc2a24" Description="" Url=""><as:assemblyIdentity name="FlipGameProject.exe" version="1.0.0.1" publicKeyToken="7fd8180a9bd3d528" language="vi-VN" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-Q9GD575\PC</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Xf6kzXdeQdPkshcJ2xwDq8dO3aUJsotYbFwCJS5SZCE=</DigestValue></Reference></SignedInfo><SignatureValue>fahZ+N19j2vnQm17SUK6yoWIpoCJPyKw4lX32z9Sg0LuBRcBxuFhSUHY6/pb1Ka2t1x5aejZWgBdABexk5KcnxBBm/uilD/ONJupTqO+L0yFMBlyEywfdsDYb/tYBH/0E7lqkxeLxt2RCC+iKAit4bt+XX5idahmdtIt0QUQQPo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>u6kibSvMlhJCJ+pBkqvvCommbzJBt4FjjTFiXkLyq8cTyEOYYSyBm4fzUWDqxZKDDNuIbYOgI2ppMBJL2z2FMJtXU1yF+86/lwy4t5l8pVgYoRksDCVMJROf7GF/SeikyMl2gki1cKjRZq8A7tLEDn/fjTwyRjlMZ8PNKnuPhg0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQcv1qVCCirL5FykB01Vf/aDANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtAFEAOQBHAEQANQA3ADUAXABQAEMwHhcNMjAxMjIxMDQxOTI0WhcNMjExMjIxMTAxOTI0WjAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtAFEAOQBHAEQANQA3ADUAXABQAEMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALupIm0rzJYSQifqQZKr7wqJpm8yQbeBY40xYl5C8qvHE8hDmGEsgZuH81Fg6sWSgwzbiG2DoCNqaTASS9s9hTCbV1NchfvOv5cMuLeZfKVYGKEZLAwlTCUTn+xhf0nopMjJdoJItXCo0WavAO7SxA5/3408MkY5TGfDzSp7j4YNAgMBAAEwDQYJKoZIhvcNAQELBQADgYEALzYVhiiKCUB4rY3F18dXJHVHm0GCHe/XJ3skrYGYlGpGXQtafErUB1id4OGDnnPzUDiON81UlkLCDmM+NFknYd5Ah7PoGr/TgPVAnSRaRdjYg1t5bkI7MT8+xRpBeKhH3hvEeoVsxpVMtHfTBF+0/MmQyltXqLt57/Mer2hy3Qc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
